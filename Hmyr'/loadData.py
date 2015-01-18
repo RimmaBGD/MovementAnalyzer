@@ -8,5 +8,6 @@ dataX = []
 for line in data.readlines():
     a=line.split(';')
     dataX.append(a[2])
+    b=5
 
 print(dataX)
